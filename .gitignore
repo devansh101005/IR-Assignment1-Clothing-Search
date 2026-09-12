@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.zip
+make_zip.py
+.vscode/
+.idea/
