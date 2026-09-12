@@ -1,0 +1,57 @@
+CORPUS STATISTICS
+============================================================
+documents (N)                 : 100
+distinct terms (dictionary)   : 127
+postings                      : 3934
+terms after preprocessing     : 5203
+average terms per document    : 52.0
+stop words in our list        : 118
+words taken back OUT of the standard list : s, t, down, up, over, out, off, no, not
+
+Terms with df = N (they appear in every single document, so
+idf = log10(100/100) = 0 and they cannot affect the cosine
+score at all). This is the reason we built the proximity boost:
+------------------------------------------------------------
+   avail
+   casual
+   colour
+   comfort
+   common
+   depend
+   design
+   essential
+   everyday
+   feature
+   festive
+   garment
+   indian
+   made
+   office
+   pair
+   regular
+   size
+   standard
+   styling
+   suit
+   travel
+   use
+   wardrobe
+   wear
+   well
+   work
+
+27 of the 127 dictionary terms are in this state.
+
+
+CATEGORY BREAKDOWN
+------------------------------------------------------------
+   Dress          10
+   Hoodie         10
+   Jacket         10
+   Jeans          10
+   Kurta          10
+   Leggings       10
+   Saree          10
+   Shirt          10
+   Sweatshirt     10
+   T-Shirt        10
