@@ -1,0 +1,105 @@
+DOCUMENT LENGTHS used for cosine normalisation (lnc)
+length = sqrt( sum of (1 + log10(tf))^2 over all terms in the doc )
+==========================================================================================
+docID      #terms     length   title
+------------------------------------------------------------------------------------------
+D001           53    6.95656   Men's Cotton Crew Neck T-Shirt - Black
+D002           52    6.94348   Men's Checked Cotton Shirt - Black
+D003           55    7.04100   Men's Regular Fit Denim Jeans - Grey
+D004           51    6.71304   Men's Regular Fit Kurta - Pink
+D005           52    6.77941   Women's Printed Daily Wear Saree - Blue
+D006           51    6.84869   Women's Solid Midi Dress - Green
+D007           51    6.87109   Women's Oversized Fleece Hoodie - Black
+D008           51    6.81130   Women's Casual Puffer Jacket - Olive
+D009           57    7.08849   Women's High Waist Stretch Leggings - Olive Green
+D010           49    6.67812   Women's Fleece Sweatshirt - Black
+D011           51    6.87109   Men's Oversized Graphic T-Shirt - Mustard
+D012           51    6.83382   Women's Striped Casual Shirt - Blue
+D013           53    6.95656   Men's Slim Fit Stretch Jeans - Grey
+D014           52    6.89908   Women's Printed Straight Kurta - Beige
+D015           51    6.82622   Women's Cotton Handloom Saree - Red
+D016           53    6.80050   Women's Casual Fit Dress - Floral Pink
+D017           53    6.91975   Unisex Fleece Pullover Hoodie - Navy Blue
+D018           49    6.66286   Women's Quilted Winter Jacket - Beige
+D019           51    6.84869   Women's Printed Active Leggings - Black
+D020           55    7.01914   Men's Regular Fit Sweatshirt - Navy Blue
+D021           57    7.18162   Men's Cotton Crew Neck T-Shirt - Sky Blue
+D022           51    6.82622   Men's Checked Cotton Shirt - White
+D023           53    6.87520   Men's Regular Fit Denim Jeans - Grey
+D024           51    6.77370   Men's Regular Fit Kurta - Teal
+D025           52    6.77941   Women's Printed Daily Wear Saree - Maroon
+D026           55    7.07718   Women's Solid Midi Dress - Navy Blue
+D027           52    6.94348   Women's Oversized Fleece Hoodie - Wine
+D028           50    6.69172   Women's Casual Puffer Jacket - Black
+D029           53    6.86038   Women's High Waist Stretch Leggings - Grey
+D030           49    6.72398   Women's Fleece Sweatshirt - Maroon
+D031           54    7.02807   Men's Oversized Graphic T-Shirt - Olive Green
+D032           55    7.06279   Women's Striped Casual Shirt - Light Pink
+D033           55    7.07718   Men's Slim Fit Stretch Jeans - Grey
+D034           51    6.78870   Women's Printed Straight Kurta - Maroon
+D035           50    6.75257   Women's Cotton Handloom Saree - Yellow
+D036           50    6.69948   Women's Casual Fit Dress - Black
+D037           50    6.76026   Unisex Fleece Pullover Hoodie - Black
+D038           50    6.73749   Women's Quilted Winter Jacket - Olive
+D039           55    7.07718   Women's Printed Active Leggings - Olive Green
+D040           51    6.76603   Men's Regular Fit Sweatshirt - Black
+D041           53    6.95656   Men's Cotton Crew Neck T-Shirt - Maroon
+D042           51    6.87109   Men's Checked Cotton Shirt - Maroon
+D043           53    6.91975   Men's Regular Fit Denim Jeans - Grey
+D044           55    6.98266   Men's Regular Fit Kurta - Navy Blue
+D045           53    6.85276   Women's Printed Daily Wear Saree - Purple
+D046           51    6.78870   Women's Solid Midi Dress - Lavender
+D047           54    7.02807   Women's Oversized Fleece Hoodie - Navy Blue
+D048           50    6.73749   Women's Casual Puffer Jacket - Beige
+D049           53    6.86038   Women's High Waist Stretch Leggings - Black
+D050           53    6.93444   Women's Fleece Sweatshirt - Navy Blue
+D051           55    7.09886   Men's Oversized Graphic T-Shirt - Navy Blue
+D052           51    6.78870   Women's Striped Casual Shirt - Beige
+D053           53    6.94909   Men's Slim Fit Stretch Jeans - Grey
+D054           51    6.84869   Women's Printed Straight Kurta - Mustard
+D055           50    6.75257   Women's Cotton Handloom Saree - Pink
+D056           51    6.77370   Women's Casual Fit Dress - Yellow
+D057           51    6.83382   Unisex Fleece Pullover Hoodie - Wine
+D058           49    6.61658   Women's Quilted Winter Jacket - Black
+D059           51    6.84869   Women's Printed Active Leggings - Grey
+D060           51    6.81130   Men's Regular Fit Sweatshirt - Maroon
+D061           53    6.95656   Men's Cotton Crew Neck T-Shirt - White
+D062           52    6.94348   Men's Checked Cotton Shirt - Olive
+D063           55    7.04100   Men's Regular Fit Denim Jeans - Grey
+D064           51    6.71304   Men's Regular Fit Kurta - White
+D065           52    6.77941   Women's Printed Daily Wear Saree - Green
+D066           51    6.84869   Women's Solid Midi Dress - Maroon
+D067           51    6.87109   Women's Oversized Fleece Hoodie - Black
+D068           51    6.81130   Women's Casual Puffer Jacket - Olive
+D069           57    7.08849   Women's High Waist Stretch Leggings - Olive Green
+D070           49    6.67812   Women's Fleece Sweatshirt - Black
+D071           51    6.87109   Men's Oversized Graphic T-Shirt - Black
+D072           51    6.83382   Women's Striped Casual Shirt - Black
+D073           53    6.95656   Men's Slim Fit Stretch Jeans - Grey
+D074           52    6.89908   Women's Printed Straight Kurta - Pink
+D075           51    6.82622   Women's Cotton Handloom Saree - Blue
+D076           50    6.63814   Women's Casual Fit Dress - Green
+D077           53    6.91975   Unisex Fleece Pullover Hoodie - Navy Blue
+D078           49    6.66286   Women's Quilted Winter Jacket - Beige
+D079           51    6.84869   Women's Printed Active Leggings - Black
+D080           55    7.01914   Men's Regular Fit Sweatshirt - Navy Blue
+D081           54    7.02807   Men's Cotton Crew Neck T-Shirt - Mustard
+D082           51    6.82622   Men's Checked Cotton Shirt - Blue
+D083           53    6.87520   Men's Regular Fit Denim Jeans - Grey
+D084           51    6.77370   Men's Regular Fit Kurta - Beige
+D085           52    6.77941   Women's Printed Daily Wear Saree - Red
+D086           55    7.07718   Women's Solid Midi Dress - Floral Pink
+D087           52    6.94348   Women's Oversized Fleece Hoodie - Wine
+D088           50    6.69172   Women's Casual Puffer Jacket - Black
+D089           53    6.86038   Women's High Waist Stretch Leggings - Grey
+D090           49    6.72398   Women's Fleece Sweatshirt - Maroon
+D091           54    7.02807   Men's Oversized Graphic T-Shirt - Sky Blue
+D092           52    6.90660   Women's Striped Casual Shirt - White
+D093           55    7.07718   Men's Slim Fit Stretch Jeans - Grey
+D094           51    6.78870   Women's Printed Straight Kurta - Teal
+D095           50    6.75257   Women's Cotton Handloom Saree - Maroon
+D096           53    6.86038   Women's Casual Fit Dress - Navy Blue
+D097           50    6.76026   Unisex Fleece Pullover Hoodie - Black
+D098           50    6.73749   Women's Quilted Winter Jacket - Olive
+D099           55    7.07718   Women's Printed Active Leggings - Olive Green
+D100           51    6.76603   Men's Regular Fit Sweatshirt - Black
